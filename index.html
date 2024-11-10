@@ -15,6 +15,164 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- Previous HTML content -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/icons/logo.svg" alt="New Branch Medical Logo">
+                </a>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#approach">Our Approach</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>A New Branch in Your Health Journey</h1>
+                <p>Evidence-based weight management solutions tailored to your unique needs</p>
+                <a href="#contact" class="cta-button">Book a Consultation</a>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/hero-consultation.jpg" alt="Medical consultation" class="hero-img">
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <img src="assets/icons/personalized-care.svg" alt="Personalized Care Icon">
+                        <h3>Personalized Care</h3>
+                        <p>Treatment plans tailored to your unique needs and goals</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="assets/icons/evidence-based.svg" alt="Evidence-Based Icon">
+                        <h3>Evidence-Based</h3>
+                        <p>Treatments backed by the latest medical research</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="assets/icons/holistic.svg" alt="Holistic Approach Icon">
+                        <h3>Holistic Approach</h3>
+                        <p>Comprehensive care addressing all aspects of health</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About New Branch Medical</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>New Branch Medical is dedicated to providing evidence-based obesity and weight management care. Our team of specialists works with you to develop personalized treatment plans that address your unique needs.</p>
+                        <p>We believe in a comprehensive approach that combines medical expertise with ongoing support to help you achieve lasting results.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="assets/images/team-photo.jpg" alt="New Branch Medical Team">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="approach" class="approach">
+            <div class="container">
+                <h2>Our Approach</h2>
+                <div class="approach-content">
+                    <div class="approach-text">
+                        <h3>Scientific & Supportive</h3>
+                        <p>At New Branch Medical, we combine medical expertise with compassionate care. Our evidence-based approach ensures you receive the most effective treatments available.</p>
+                        <ul class="approach-list">
+                            <li>Comprehensive medical evaluation</li>
+                            <li>Personalized treatment planning</li>
+                            <li>Ongoing support and monitoring</li>
+                            <li>Lifestyle and behavioral guidance</li>
+                        </ul>
+                    </div>
+                    <div class="approach-image">
+                        <img src="assets/images/evidence-based.jpg" alt="Medical consultation">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get Started Today</h2>
+                <div class="contact-content">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="cta-button">Send Message</button>
+                    </form>
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <div class="info-item">
+                            <img src="assets/icons/location.svg" alt="Location Icon">
+                            <p>123 Medical Center Drive<br>Vancouver, BC V6B 1A1</p>
+                        </div>
+                        <div class="info-item">
+                            <img src="assets/icons/phone.svg" alt="Phone Icon">
+                            <p>(555) 123-4567</p>
+                        </div>
+                        <div class="info-item">
+                            <img src="assets/icons/email.svg" alt="Email Icon">
+                            <p>info@newbranchmedical.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <img src="assets/icons/logo.svg" alt="New Branch Medical Logo" class="footer-logo">
+                <p>© 2024 New Branch Medical. All rights reserved.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Quick Links</h4>
+                    <a href="#services">Services</a>
+                    <a href="#about">About</a>
+                    <a href="#approach">Our Approach</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="link-group">
+                    <h4>Legal</h4>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
-</html> 
+</html>
